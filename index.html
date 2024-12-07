@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coderiano/GameSnake</title>
+    <link rel="stylesheet" href="snake.css">
+    <link href="https://fonts.googleapis.com/css2?family=Impact&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- titke & fitur -->
+    <div class="fitur">
+        <div >
+            <h1>Cacing Besar Alaska</h1>
+            <label for="speed">Choice your title</label>
+            <select id="speed">
+                <option value="pemula">Pemula</option>
+                <option value="pemain">Pemain</option>
+                <option value="suhu">Suhu</option>
+                <option value="sepuh">Sepuh</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <button id="start">START</button>
+            <button id="reStart">RESTART</button>
+            <button id="pauseButton">STOP</button>
+        </div>
+    </div>
+    <br>
+    <!-- titke & fitur end -->
+    <!-- icon -->
+    <div class="iconn">
+        <div>
+            <img src="img/2.png" alt="Description">
+        </div>
+        <div id="score">Score: 0 </div>
+        <div>
+            <img src="img/3.png" alt="control">
+        </div>
+    </div>
+    <br>
+    <!-- icon end -->
+    <!-- Game -->
+    <canvas id="board"></canvas>
+    <!-- Game end -->
+    
+    <script src="snake.js"></script>
+</body>
+</html>
